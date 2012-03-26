@@ -1,0 +1,25 @@
+#sidebar
+{
+    position:absolute;
+    top:260px;
+    left:80%;
+    width:20%;
+}
+#sidebar img
+{
+    width:100%;
+    height:100%;
+    z-index:-1;
+    position:absolute;
+    top:0px;
+}
+#sidebar ul,#sidebar p
+{
+    margin:0 10%;
+}
+#updates ul
+{
+    list-style-type:none;
+    margin-bottom:20px;
+}
+

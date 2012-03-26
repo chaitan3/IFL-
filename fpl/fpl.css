@@ -1,0 +1,115 @@
+#list
+{
+    margin-left:20px;
+    float:left;
+    position:relative;
+}
+#choice
+{
+    position:relative;
+    float:left;
+    left:40px;
+    text-align:left;
+}
+#selection
+{
+    width:auto;
+    margin:0;
+}
+/* field size 360x500*/
+#matchstats
+{
+    display:none;
+    text-align:left;
+    font-size:0.8em;
+    background-color:white;
+    opacity:0.8;
+    filter: alpha(opacity=80);
+    padding:2px;
+}
+#field
+{
+    z-index:-1;
+}
+#fieldname
+{
+    float:left;
+    color:white;
+    font-size:0.9em;
+}
+#gk0:hover #matchstats,#def0:hover #matchstats,#def1:hover #matchstats,
+#def2:hover #matchstats,#def3:hover #matchstats,#mid0:hover #matchstats,
+#mid1:hover #matchstats,#mid2:hover #matchstats,#mid3:hover #matchstats,
+#for0:hover #matchstats,#for1:hover #matchstats
+{
+    display:block;
+}
+#gk0
+{
+    position:absolute;
+    left:150px;
+    top:400px;
+}
+
+#def0
+{
+    position:absolute;
+    left:10px;
+    top:300px;
+}
+#def1
+{
+    position:absolute;
+    left:110px;
+    top:320px;
+}
+#def2
+{
+    position:absolute;
+    left:190px;
+    top:320px;
+}
+#def3
+{
+    position:absolute;
+    left:290px;
+    top:300px;
+}
+
+#mid0
+{
+    position:absolute;
+    left:20px;
+    top:180px;
+}
+#mid1
+{
+    position:absolute;
+    left:110px;
+    top:200px;
+}
+#mid2
+{
+    position:absolute;
+    left:190px;
+    top:200px;
+}
+#mid3
+{
+    position:absolute;
+    left:280px;
+    top:180px;
+}
+
+#for0
+{
+    position:absolute;
+    left:90px;
+    top:80px;
+}
+#for1
+{
+    position:absolute;
+    left:210px;
+    top:80px;
+}

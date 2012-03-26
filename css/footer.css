@@ -1,0 +1,23 @@
+#footer
+{
+    clear:both;
+    position:relative;
+    top:70px;
+    width:100%;
+}
+#footer p
+{
+    text-align:center;
+}
+#foot
+{
+    position:absolute;
+    height:100px;
+    width:100%;
+    z-index:-1;
+}
+#copy
+{
+    position:relative;
+    top:-20px;
+}

@@ -1,0 +1,167 @@
+#content
+{
+    
+    position:relative;
+    top:10px;
+	width:60%;
+    margin:0 20%;
+    text-align:center;
+    min-height:550px;
+}
+#fpl_content
+{
+    position:relative;
+    top:10px;
+	margin-left:20%;
+    text-align:center;
+    min-height:550px;
+}
+a
+{
+    color:darkgreen;
+}
+table, td,th
+{
+    border:0px;
+    border-collapse:collapse;
+}
+table
+{
+    margin:0 10%;
+    width:80%;
+}
+    
+td,th
+{
+    min-width:20px;
+    padding:7px;
+    background-repeat:no-repeat;
+}
+tr.one td
+{
+    background-color:#C8BAFF;
+}
+tr.two td
+{
+    background-color:#E4DDFF;
+}
+th
+{
+    background-color:#A891FF;
+}
+#tl
+{
+    background:#A891FF url('../images/left.png') no-repeat top left;
+}
+#tr
+{
+    background:#A891FF url('../images/right.png') no-repeat top right;
+}
+#bl
+{
+    background:#C8BAFF url('../images/botleft.png') no-repeat bottom left;
+}
+#br
+{
+    background:#C8BAFF url('../images/botright.png') no-repeat bottom right;
+}
+#plist
+{
+    position:relative;
+    width:50%;
+    left:15%;
+}
+img#logo
+{
+    height:30px;
+}
+.left
+{
+    text-align:left;
+}
+.right
+{
+    text-align:right;
+}
+img#biglogo
+{
+    float:right;
+}
+#player
+{
+    position:absolute;
+    left:65%;
+    width:30%;
+}
+#help
+{
+    font-size:0.8em;
+}
+table#login
+{
+    margin:0 30%;
+    width:40%;
+}
+table#info
+{
+    margin:0 5%;
+    width:50%;
+}
+#common ul
+{
+    list-style-type:none;
+}
+#common li
+{
+    display:inline;
+}
+a.button {
+    background: url('../images/button_s.png') no-repeat top right;
+    color: black;
+    display: block;
+    float: left;
+    height: 24px;
+    min-width:100px;
+    padding-right: 18px;
+    margin-right:10px;
+    text-decoration: none;
+}
+
+a.button span {
+    background:url('../images/button.png') no-repeat;
+    display:block;
+    font-size: 14px;
+    line-height:14px;
+    padding: 5px 0 5px 18px;
+} 
+
+a.button:hover,a.button:active {
+    background: url('../images/button_h.png') no-repeat top right;
+} 
+
+a.button span:hover,a.button span:active,a.button:hover span,a.button:active span {
+    background: url('../images/button_s_h.png') no-repeat;
+}
+#xinfo p
+{
+    display:none;
+    font-size:14px;
+}
+#hov:hover #xinfo p
+{
+    display:block;
+}
+tr#mlink:hover td
+{
+    background-color:#A891FF;
+}
+#register,#ranking
+{
+    width:40%;
+    margin-left:30%;
+}
+.sponsors
+{
+    width:300px;
+    height:auto;
+}
